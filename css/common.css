@@ -13,3 +13,10 @@ body {
     line-height: 1.5;
 }
 
+img {
+    display: flex;
+    justify-content: center;
+    object-fit: cover;
+    max-width: 100%;
+    height: auto;
+}

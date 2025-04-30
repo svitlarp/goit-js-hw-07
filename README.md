@@ -1,6 +1,6 @@
 # HomeWork 7 JavaScript contains 3 tasks:
 
-- task1:
+- task1: Script that counts li.item
 - task2:
 - task3:
 - task4:
