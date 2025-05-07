@@ -29,7 +29,7 @@ const images = [
 ];
 
 
-function createGalarryEl(image) {
+function createGalerryItem(image) {
   const galleryItem = document.createElement("li");
   const galleryCard = document.createElement("img");
   galleryCard.src = image.url;
@@ -38,10 +38,10 @@ function createGalarryEl(image) {
   return galleryItem;
 }
 
-const gallaryCardArr = images.map(el => createGalarryEl(el));
+const galleryArr = images.map(el => createGalerryItem(el));
 
 const gallery = document.querySelector(".gallery");
-gallery.append(...gallaryCardArr);
+gallery.append(...galleryArr);
 
 
 
